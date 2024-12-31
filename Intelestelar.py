@@ -29,7 +29,7 @@ while running:
     rect_rotado = imagen_rotada.get_rect(center=rect.center)
 
     screen.fill((255, 255, 255))
-    screen.blit(imagen_rotada, rect_rotado.topleft)
+    screen.blit(imagen_rotada, rect_rotado.topright)
     pygame.display.flip()
     reloj.tick(60)  # Limit frame rate to 60 FPS
 
